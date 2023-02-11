@@ -2,9 +2,10 @@
 // 5 -> 2, 4    8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число > ");
-var n = Decimal.Parse(Console.ReadLine());
+string a = Console.ReadLine();
+int n = Convert.ToInt32(a);
 
-var count = 1;
+int count = 1;
 
 while(count >= n);
 {
